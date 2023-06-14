@@ -2077,7 +2077,6 @@ footer .footer-sosial{background:rgb(29 33 36)}
 <script crossorigin='anonymous' integrity='sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS' src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js'/>
 <!--[ Javascript Bootstrap ]-->
 <script crossorigin='anonymous' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' src='https://code.jquery.com/jquery-3.7.0.min.js'/>
-
 <b:if cond='data:view.isSingleItem'>
 <script type='text/javascript'>/*<![CDATA[*/ var content=document.querySelector(".post-body"),headings=content.querySelectorAll(".post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6, .post-body h7"),headingMap={};Array.prototype.forEach.call(headings,function(e){var t=e.id?e.id:e.textContent.toLowerCase().replace(/[^a-z -]/gi,"").trim().split(" ").join("-").replace(/--/g,"-");headingMap[t]=isNaN(headingMap[t])?0:++headingMap[t],headingMap[t]?e.id=t+"-"+headingMap[t]:e.id=t}),tocbot.init({tocSelector:".Toc",contentSelector:".post-body",headingSelector:"h2, h3, h4, h5, h6, h7",hasInnerContainers:!0,listItemClass:"toc-list-item",orderedList:!1,headingsOffset:1}); 
 /*]]>*/</script>
@@ -2092,5 +2091,6 @@ function copyPostUrl(){document.getElementById("closeWilltoCopyPostUrl").click()
 /* Pre Content Copy */
 for(var preClick=document.getElementsByTagName("pre"),i=0;i<preClick.length;i++)preClick[i].addEventListener("dblclick",function(){var e=getSelection(),o=document.createRange();o.selectNodeContents(this),e.removeAllRanges(),e.addRange(o),document.execCommand("copy"),e.removeAllRanges(),new bootstrap.Toast(document.getElementById('liveToast1')).show();},!1);
 /*]]>*/</script>
+<script type="text/javascript" src="//cdn.inputekno.com/CodeBlog/widget/js/sitemap.min.js"></script>
 &lt;!--</body>--&gt;&lt;/body&gt;
 </html>

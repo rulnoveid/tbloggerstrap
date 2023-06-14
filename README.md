@@ -1,4 +1,4 @@
-# Tbloggerstrap Blogger Template（Theme)
+# Bstrap Blogger Template（Theme)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/release/rulnoveid/tbloggerstrap)
 ![GitHub](https://img.shields.io/github/license/rulnoveid/tbloggerstrap)

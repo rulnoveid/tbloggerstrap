@@ -2,6 +2,7 @@
 
 ![GitHub release (latest by date)](https://img.shields.io/github/release/rulnoveid/tbloggerstrap)
 ![GitHub](https://img.shields.io/github/license/rulnoveid/tbloggerstrap)
+[![GitHub stars](https://img.shields.io/github/stars/rulnoveid/tbloggerstrap)](https://github.com/rulnoveid/tbloggerstrap/stargazers)
 
 Blogger theme (template) designed with Bootstrap 5.3
 

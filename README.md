@@ -6,7 +6,7 @@
 
 Blogger theme (template) designed with Bootstrap 5.3
 
-[ [DEMO](https://bstrap.inputekno.com) ] [ [RULES](RULES.md) ] [ [CHANGELOG](CHANGELOG.md) ]
+[ [DEMO](https://bstrap.inputekno.com) ] [ [FEATURE](#feature) ] [ [CHANGELOG](CHANGELOG.md) ]
 
 ![DEMO](/media/screenshot-homepage.png)
 

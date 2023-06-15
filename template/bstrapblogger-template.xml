@@ -331,7 +331,7 @@ footer .footer-sosial{background:rgb(29 33 36)}
 #sidebar-wrapper .widget h3{font-size:1rem!important;font-weight:700;margin-bottom:1rem!important;color:var(--bs-secondary-color)!important;--bs-text-opacity:1}
 /* Syntax */
 .post-body .PreC {position:relative;overflow:hidden;margin:1.7em auto;font-family:var(--bs-body-font-family)}
-.post-body .PreC pre{width:100%;margin:0;background:var(--bs-tertiary-bg);padding:30px 20px 20px;border-radius:5px;font-size:.8rem;overflow:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;-ms-overflow-style:none;-webkit-overflow-scrolling:touch; white-space: pre;line-height:1.6em;}
+.post-body .PreC pre{width:100%;margin:0;background:var(--bs-tertiary-bg);padding:30px 20px 20px;border-radius:5px;font-size:.8rem;overflow:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;-ms-overflow-style:none;-webkit-overflow-scrolling:touch; white-space: pre-wrap;line-height:1.6em;}
 .post-body .PreC::before{content:&#39;\F2C7&#39;;display:flex;justify-content:flex-end;position:absolute;right:0;top:0;width:100%;background:inherit;color:var(--synxGray);font-size:14px;padding:0 10px;z-index:2;line-height:30px;font-family:&#39;Bootstrap-icons&#39;,var(--bs-body-font-family)}
 .post-body .PreC.html::before{content:&#39;\F749&#39;} .post-body .PreC.css::before{content:&#39;\F742&#39;} .post-body .PreC.js::before{content:&#39;\F74C&#39;}
 </style>
@@ -651,7 +651,7 @@ footer .footer-sosial{background:rgb(29 33 36)}
           <b:if cond='data:post.author.profileUrl'>
             <meta expr:content='data:post.author.profileUrl'/>
             <a class='g-profile text-muted link-offset-2 link-underline link-underline-opacity-0' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
-              <img alt='author profile' expr:src='data:post.author.authorPhoto.image' expr:title='data:post.author.name' itemprop='image' width='30px'/>
+              <img alt='author profile' expr:src='data:post.author.authorPhoto.image' expr:title='data:post.author.name' itemprop='image' width='25px'/>
             </a>
             <b:else/>
             <span><data:post.author.name/></span>

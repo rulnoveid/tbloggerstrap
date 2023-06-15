@@ -28,14 +28,23 @@ Blogger theme (template) designed with Bootstrap 5.3
 
 On **HTML** Mode
 
-Just insert ```<div id='sitemappage'></div>```
+Enter the following code 
+```
+<div id='sitemappage'></div>
+<div class='loading'>Just wait. Sitemap is loading....</div>
+<script defer='defer' src='https://cdn.jsdelivr.net/gh/rulnoveid/CodeBlog@main/widget/js/sitemap.min.js' type='text/javascript'/>
+```
 
 ### 📌 Example
 
 ```html
 <p>Explore the list of content with our HTML sitemap page. Navigate easily and find what you are looking for by article category.</p>
+
 <h2>List of category</h2>
+
 <div id='sitemappage'></div>
+<div class='loading'>Just wait. Sitemap is loading....</div>
+<script defer='defer' src='https://cdn.jsdelivr.net/gh/rulnoveid/CodeBlog@main/widget/js/sitemap.min.js' type='text/javascript'/>
 ```
 
 ## License：MIT

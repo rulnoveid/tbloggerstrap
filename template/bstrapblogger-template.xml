@@ -212,7 +212,7 @@ article#article-wrapper {padding-right: 0rem!important;padding-left: 0rem!import
 /* Sitemap Page */
 #sitemappage{margin:2em 0;line-height:1.5}
 #sitemappage details{margin:1em 0;border-radius:10px;background:var(--bs-dark-bg-subtle);transition:all .1s ease;}
-#sitemappage summary{padding:1em;background:var(--headerB);font-weight:700;cursor:default; display:flex;align-items:baseline; transition:all .1s ease);border-radius:5px}
+#sitemappage summary{padding:1em;background:var(--headerB);font-weight:700;cursor:default; display:flex;align-items:baseline; transition:all .1s ease;border-radius:5px}
 #sitemappage summary::before{content:'\203A'; flex:0 0 25px;display:flex;align-items:center;justify-content:flex-start;padding:0 5px; font-weight:400;font-size:1.33rem;color:inherit}
 #sitemappage details[open] summary::before{transform:rotate(90deg);padding:0 0 0 5px;justify-content:center}
 #sitemappage summary:focus{font-weight:bold}
